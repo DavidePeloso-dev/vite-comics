@@ -5,6 +5,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  color: var(--dc-ligth);
   font-family: "Open Sans", sans-serif;
 }
 
@@ -14,6 +15,7 @@ body {
 
 img {
   width: 100%;
+  display: block;
 }
 
 /*#endregion*/
@@ -37,6 +39,10 @@ img {
 
 .d-flex {
   display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .justify-content-between {
@@ -63,6 +69,19 @@ img {
   color: var(--dc-ligth);
   padding: 1rem;
   border: 1px solid var(--dc-primary);
+  cursor: pointer;
+}
+
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /*#endregion*/
