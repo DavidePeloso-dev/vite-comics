@@ -8,6 +8,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background-color: var(--dc-footer-bar);
+}
+
 img {
   width: 100%;
 }
@@ -19,6 +23,8 @@ img {
   --dc-primary: #0282F9;
   --dc-ligth: white;
   --dc-dark: #1C1C1C;
+  --dc-secondary: #878783;
+  --dc-footer-bar: #303030;
 }
 
 /*#endregion*/
@@ -43,6 +49,20 @@ img {
 
 .justify-content-around {
   justify-content: space-around;
+}
+
+.gap-5 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.btn {
+  color: var(--dc-ligth);
+  padding: 1rem;
+  border: 1px solid var(--dc-primary);
 }
 
 /*#endregion*/

@@ -28,7 +28,6 @@ export default {
 <style scoped>
 main {
     background-color: var(--dc-dark);
-    height: 236px;
 
     & .container {
         height: 118px;
