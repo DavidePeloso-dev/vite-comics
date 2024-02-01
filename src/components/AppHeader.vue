@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'App',
+    name: 'AppHeader',
     data() {
         return {
 
@@ -50,7 +50,7 @@ nav ul {
     gap: 2rem;
 
     & a {
-        color: var(--dc-blak);
+        color: var(--dc-dark);
         font-size: 0.8rem;
         font-weight: 700;
         line-height: 118px;
@@ -59,7 +59,7 @@ nav ul {
     & .active {
         color: var(--dc-primary);
         border-bottom: 5px solid;
-        padding-bottom: 3rem;
+        padding-bottom: 2.85rem;
     }
 
 }
